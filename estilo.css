@@ -554,6 +554,44 @@ section .titulos::after{
   color: #BB2020;
   background: none;
 }
+
+
+/*social-attach-bar*/
+
+.social a:hover i{
+
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+
+.social{
+    margin-top: 26% !important;
+    transform:translateY(-50%);
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#BB2020 ;
+    border:1px solid #CBCBCB rgba(0,0,0,0.2);
+    box-shadow:2px 2px 12px rgba(0,0,0,9);
+}
+.social a:hover{
+    background-color: rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+
+.social i{
+    font-size:20px;
+    color:white;
+}
+/*social-attach-bar*/
+
 /* footer section styling */
 footer{
     background: #111;
@@ -603,7 +641,43 @@ footer span a:hover{
     border: 2px solid #BB2020!important;
     transition: all 0.3s ease;
 }
+/*social-attach-bar*/
+
+.social a:hover i{
+
+    color:#FFFFFF;
+    transition:all ease 0.5s;
 }
+
+.social{
+    margin-top: 50% !important;
+    transform:translateY(-50%);
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#BB2020 ;
+    border:1px solid #CBCBCB rgba(0,0,0,0.2);
+    box-shadow:2px 2px 12px rgba(0,0,0,9);
+}
+.social a:hover{
+    background-color: rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+
+.social i{
+    font-size:20px;
+    color:white;
+}
+/*social-attach-bar*/
+}
+
 @media (max-width: 947px){
         .inicio{
     display: flex;
